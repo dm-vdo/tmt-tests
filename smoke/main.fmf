@@ -1,0 +1,8 @@
+summary: Smoke test for the VDO user tools package
+description: 'Installs the latest VDO user tools package and its dependencies, then runs a series of smoke tests against them.'
+component: vdo
+
+test: ./runtest.sh
+framework: beakerlib
+require: lvm2
+tier: 0
